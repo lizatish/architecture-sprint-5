@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "architecture-sprint-5"
+version = "0.1.0"
+description = ""
+authors = ["Elizaveta Nikolaeva <elizaveta.nikolaeva@avroid.team>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python =  ">=3.7.6,<3.11"
+rasa = "^3.6.21"
+transformers = "^4.49.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
